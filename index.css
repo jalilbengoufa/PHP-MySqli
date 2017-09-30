@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 20px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.Top {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.Middle {
+    height: 30%;
+    background-color: #696969;
+}
+
+.Bottom {
+    height: 20%;
+    background-color: #000000;
+}
+
+.background {
+    background-image: url("img/football-wallpaper.jpg");
+}
+
+
+/*Buttons*/
+
+a {
+    text-decoration: inherit;
+}
+
+.button1 {
+    position: relative;
+    left: 86%;
+    top: 40px;
+    color: white;
+    font-family: "proxima nova";
+    font-weight: 100;
+    font-size: 25px;
+    background-color: red;
+    /*border*/
+    border: solid 2px red;
+    border-radius: 10px;
+    padding: 5px 20px;
+    transition-duration: 200ms;
+}
+
+.button1:hover {
+    color: black;
+}
+
+.button2 {
+    position: relative;
+    left: 50%;
+    top: 10px;
+    color: white;
+    font-family: "proxima nova";
+    font-weight: 100;
+    font-size: 25px;
+    background-color: red;
+    /*border*/
+    border: solid 2px red;
+    border-radius: 10px;
+    padding: 5px 20px;
+    transition-duration: 200ms;
+}
+
+.button2:hover {
+    color: black;
+}
+
+
+/*text*/
+
+p {
+    color: white;
+    font-family: "proxima nova";
+    margin-top: 20%;
+    margin-left: 50%;
+    font-weight: 200;
+    font-size: 50px;
+}
+
+
+/*mid*/
+
+#mainCanvas {
+    width: 400px;
+    height: 400px;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
+#mainCanvas:hover {
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+
+
+/*bas page */
+
+ul {
+    top: 30px;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+
+li {
+    text-align: center;
+    display: inline-block;
+    margin-right: 1px;
+}
+
+
+/* style for menu links*/
+
+li a {
+    display: block;
+    min-width: 140px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+}
