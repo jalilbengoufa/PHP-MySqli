@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 20px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.Top {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.Bottom {
+    height: 50%;
+    background-color: #000000;
+}
+
+.background {
+    background-image: url("football-wallpaper.jpg");
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+form {
+    position: relative;
+    top: 200px;
+    margin-left: 40%;
+    width: 320px;
+    color: white;
+}
+
+input {
+    padding: 10px;
+    font-size: inherit;
+    background: #FFFFE0;
+}
+
+input[type="text"] {
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid white;
+}
+
+input[type="password"] {
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid white;
+}
+
+input[type="email"] {
+    display: block;
+    margin-bottom: 25px;
+    width: 100%;
+    border: 2px solid white;
+}
+
+input[type="submit"] {
+    width: 320px;
+    height: 45px;
+    border: none;
+    background-color: red;
+    border: solid 2px red;
+    color: white;
+    transition-duration: 200ms;
+    font-family: "proxima nova";
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+input[type="submit"]:hover {
+    color: black;
+}
+
+input:focus {
+    background-color: white;
+}
+
+p {
+    font-family: "proxima nova";
+    font-size: 20px;
+    margin-top: 25px;
+}
